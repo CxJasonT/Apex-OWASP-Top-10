@@ -7,7 +7,9 @@ public with sharing class OWASPTop10_1_InjectionController {
 		contactNumber = ApexPages.currentPage().getParameters().get('cn');
 
 		// Query for cases that match
-		cases = Database.query('select ID from Case where CaseNumber = :contactNumber');
+		String queryName = '%' + contactNumber + '%';
+		cases = [SELECT Id FROM Case WHERE 
+           	(IsDeleted = false and CaseNumber = :queryName)];
 		
 	}
 }
