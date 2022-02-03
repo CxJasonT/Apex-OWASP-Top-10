@@ -32,3 +32,5 @@ Some vulnerabilities relate more to sharing and security setup within Salesforce
 **Aren't these examples a little 'out there'?**
 
 The word I used when presenting this was 'tortured'. However, the examples are supposed to give enough context to highlight the vulnerabilities without needing to be overly specific and detailed. The point is not to consider these threats when you're making an application in the same context of the scenario explained above, but to consider these threats whenever or wherever they may rear their head. The details of a more realistic example would possibly get in the way of the core points of each vulnerability.
+
+Something
